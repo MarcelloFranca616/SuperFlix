@@ -1,0 +1,21 @@
+# Banco de dados e arquivos persistentes
+/mysql-data/
+
+# Credenciais e arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Certificados e chaves privadas
+*.pem
+*.key
+
+# Artefatos Java/Maven
+**/target/
+**/effective-pom.xml
+
+# IDE e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
